@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="homepage.css">
+    <title>Homepage</title>
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <ul>
+            <li>
+                <div class="logo">
+                    <img src="img/foodlogo.png" alt="logo">
+                </div>
+            </li>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact Us</a></li>
+            <li class="reglog"><a id="login" href="login.html">Login</a></li>
+            <li class="reglog"><a id="signup" href="signup.html">Signup</a></li>
+            <li class="reglog"><a href="#language">Language</a></li>
+        </ul>
+    </nav>
+    <div class="image-container">
+        <div class="myImage">
+            <img src="img/cibo.jpg" alt="immaginecibo">
+            <div class="text-box">
+                <div class="text">Home We Eat Home</div>
+            </div>
+            <input type="button" class="more-button" value="More">
+        </div>
+    </div>
+    <hr>
+    <h2 class="about-title">About</h2>
+    <div class="about-section">
+        <img class="about-img-circle" src="img/foodlogo.png" alt="pastaimage">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+            quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+            Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut
+            metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+    </div>
+    <hr>
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <img src="img/formicn.png" alt="formicon">
+        <form id="contact-form" action="homepage.html" method="POST">
+            <input id="name" type="text" placeholder="Your Name" name="name"><br>
+            <input type="email" placeholder="Your@mail.com" name="mail"><br>
+            <input id="subj" type="text" placeholder="Subject" name="subj"><br>
+            <textarea placeholder="Your Message" name="mex"></textarea><br>
+            <input type="Submit" class="sign-up-btn" value="Submit">
+        </form>
+    </div>
+    <div class="modal">
+        <div class="modal-content-alert">
+            <a href="homepage.html"><span class="close">&times;</span></a>
+            <h3>Sorry, No PHP</h3>
+        </div>
+    </div>
+
+    <div class="footer">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.<br>
+        <img src="img/ccicn.png" alt="creativecommonsicon">
+    </div>
+</body>
+
+</html>

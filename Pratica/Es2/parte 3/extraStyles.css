@@ -1,0 +1,128 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */
+ 
+ .navbar {
+     margin-bottom: 0;
+     border-radius: 0;
+     position: fixed;
+     width: 100%;
+     z-index: 5;
+     top: 0;
+ }
+ /* Add a gray background color and some padding to the footer */
+ 
+ footer {
+     background-color: #000;
+     padding: 25px;
+ }
+ 
+ .carousel-inner img {
+     width: 100%;
+     margin: auto;
+     max-height: 620px;
+     min-height: 200px;
+ }
+ /* Hide the carousel text when the screen is less than 600 pixels wide */
+ 
+ @media (max-width: 600px) {
+     .carousel-caption {
+         display: none;
+     }
+ }
+ 
+ .carousel-caption {
+     background: rgba(255, 255, 255, 0.55);
+     text-align: center;
+     vertical-align: middle;
+ }
+ 
+ #imaginary_container {
+     margin-top: 5%;
+ }
+ 
+ .stylish-input-group .input-group-addon {
+     background: white !important;
+     border-color: orange;
+ }
+ 
+ .stylish-input-group .form-control {
+     border-right: 0;
+     box-shadow: 0 0 0;
+     border-color: orange;
+     height: 50px;
+ }
+ 
+ .stylish-input-group button {
+     border: 0;
+     background: transparent;
+ }
+ 
+ #imaginary_container h1 {
+     text-align: center;
+ }
+ 
+ .background {
+     background-image: url("img/background.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 800px;
+ }
+ 
+ div.recipesContainer {
+     display: none;
+ }
+ 
+ div.carousel-caption {
+     color: black;
+ }
+ 
+ .carousel-indicators li {
+     color: black;
+ }
+ 
+ .carousel-indicators .active {
+     background-color: #000;
+ }
+ 
+ h1#recipeLabel-0 {
+     text-align: center;
+     border: 1px solid black;
+     border-radius: 25px;
+     background: linear-gradient(to right, yellow, orange);
+ }
+ 
+ h1#recipeLabel-1 {
+     text-align: center;
+     border: 1px solid black;
+     border-radius: 25px;
+     background: linear-gradient(to right, yellow, orange);
+ }
+ 
+ h1#recipeLabel-2 {
+     text-align: center;
+     border: 1px solid black;
+     border-radius: 25px;
+     background: linear-gradient(to right, yellow, orange);
+ }
+ 
+ h1#recipeLabel-3 {
+     text-align: center;
+     border: 1px solid black;
+     border-radius: 25px;
+     background: linear-gradient(to right, yellow, orange);
+ }
+ 
+ h1#recipeLabel-4 {
+     text-align: center;
+     border: 1px solid black;
+     border-radius: 25px;
+     background: linear-gradient(to right, yellow, orange);
+ }
+ 
+ div.table-responsive {
+     background: rgba(255, 255, 255, 0.55);
+ }
+ 
+ h4 {
+     display: none;
+ }
